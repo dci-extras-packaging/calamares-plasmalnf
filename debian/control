@@ -1,4 +1,4 @@
-Source: calamares
+Source: calamares-plasmalnf
 Section: devel
 Priority: optional
 Maintainer: Rohan Garg <rohan@kde.org>
@@ -31,11 +31,11 @@ Build-Depends: cmake,
                qttools5-dev,
                qttools5-dev-tools
 Standards-Version: 3.9.6
-Homepage: https://github.com/calamares/calamares
-Vcs-Git: http://github.com/calamares/calamares-debian.git
-Vcs-Browser: https://github.com/calamares/calamares-debian.git
+Homepage: https://github.com/calamares-plasmalnf/calamares-plasmalnf
+Vcs-Git: http://github.com/calamares-plasmalnf/calamares-plasmalnf-debian.git
+Vcs-Browser: https://github.com/calamares-plasmalnf/calamares-plasmalnf-debian.git
 
-Package: calamares
+Package: calamares-plasmalnf
 Architecture: any
 Depends: e2fsprogs (>= 1.43),
          os-prober,
@@ -45,4 +45,4 @@ Recommends: grub-efi-amd64-bin, grub-pc, konsole, squashfs-tools
 Description: distribution-independent installer framework
  distribution-independent installer framework.
  .
- This package contains the calamares installer framework.
+ This package contains the calamares-plasmalnf installer framework.
